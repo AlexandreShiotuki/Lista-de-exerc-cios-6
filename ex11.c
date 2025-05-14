@@ -31,10 +31,10 @@ int main() {
     }
     
     printf("Somando: ");
-for (int i = 0; i < 4; i++) {
-    for (int j = 0; j < 4; j++) {
-        printf("(%d + %d)", A[i][j], B[i][j]);
-        if (!(i == 3 && j == 3)) printf(" + ");
+    for (int i = 0; i < 4; i++) {
+        for (int j = 0; j < 4; j++) {
+            printf("(%d + %d)", A[i][j], B[i][j]);
+            if (!(i == 3 && j == 3)) printf(" + ");
     }
 }  
     printf("\nSoma: %d", sum);
